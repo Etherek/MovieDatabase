@@ -1,5 +1,4 @@
 TODO in this project
--Add Login Page
 -Add Movie info page
 -make better buttons
 -Add language change with i18n
