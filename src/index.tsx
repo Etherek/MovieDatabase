@@ -1,18 +1,14 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Sticker from './Sticker';
-import Gallery from './Gallery';
-import InfiniteScroller from './Scroller';
+import App from './App';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <div>
-    <Sticker></Sticker>
-    <Gallery></Gallery>
-    <InfiniteScroller></InfiniteScroller>
+    <App></App>
   </div>
 
 );

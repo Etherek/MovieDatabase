@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './Sticker.css';
+import { Link } from 'react-router-dom';
 
 function Sticker(): JSX.Element {
   return (
@@ -9,7 +10,8 @@ function Sticker(): JSX.Element {
         <img src={logo} alt="Logo" />
       </div>
       <div className='login'>
-        <p>Logowanie</p>
+      <Link to="/login">Logowanie</Link>
+
       </div>
       <div className='register'>
         <p>Rejestracja</p>
